@@ -1,13 +1,19 @@
 Program related instructions:
-->> Import the project on Intellij and run the main method in Main class
+
+->>Import the project on Intellij and run the main method in Main class
+
 ->> main method is in Main class which calls the Client class.
+
 ->> Client class is where 3 usecases are added.
     usecase 1: Between Human and Computer(Sequence engine)
     usecase 2: Between Human and Computer(Random engine)
     usecase 3: Between Human and Human
-    Since this is a client, you can comment out any two use cases out of the three.
+    Since this is a client, you can comment out any two use cases out of the three. 
+    
 ->> GameController class controls the gaming aspect of a game.
+
 ->> Symbol class instead of free text.
+
 ->> Game attributes like status and result are encapsulated in GameStatus and GameResult classes.
 
 
