@@ -27,8 +27,8 @@ public class Client {
         Computer computer1 = new Computer("alphago");
         Engine sequenceEngine1 = new SequenceEngine();
         computer1.setEngine(sequenceEngine1);
-        PlayerSpec human1spec = new HumanSpec(human1, Symbol.P);
-        PlayerSpec computer1spec = new ComputerSpec(computer1, Symbol.Q);
+        PlayerSpec human1spec = new HumanSpec(human1, Symbol.X);
+        PlayerSpec computer1spec = new ComputerSpec(computer1, Symbol.O);
         try {
             Game game2 = new Game(human1spec, computer1spec);
             playGame(game2);
@@ -42,8 +42,8 @@ public class Client {
         Computer computer1 = new Computer("beta");
         Engine randomEngine1 = new RandomEngine();
         computer1.setEngine(randomEngine1);
-        PlayerSpec human1spec = new HumanSpec(human1, Symbol.P);
-        PlayerSpec computer1spec = new ComputerSpec(computer1, Symbol.Q);
+        PlayerSpec human1spec = new HumanSpec(human1, Symbol.X);
+        PlayerSpec computer1spec = new ComputerSpec(computer1, Symbol.O);
         try {
             Game game2 = new Game(human1spec, computer1spec);
             playGame(game2);
