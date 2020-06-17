@@ -16,6 +16,15 @@ Program related instructions:
 
 ->> Game attributes like status and result are encapsulated in GameStatus and GameResult classes.
 
+How to play:
+
+Each cell is represented using 2 numbers.
+
+->> Top left cell is 0 0 
+
+->> Centre cell is 1 1
+
+->>Bottom right cell is 2 2
 
 Referring Tic-Tac-Toe to T3.
 
